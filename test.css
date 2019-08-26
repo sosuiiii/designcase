@@ -1,0 +1,133 @@
+*{
+     font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+@media screen and (max-width: 767px){
+.content01{
+    background-color: #ff96b9;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.content01-sentence{
+    background-color: white;
+    border-radius: 3px;
+    padding: 40px;
+}
+.img01{
+    width: 200px;
+    margin: 10px;
+}
+.img02, .img03, .img04{
+    width: 290px;
+    margin: 20px;
+}
+
+.content01-title{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    border-bottom: 2px dotted white;
+    margin-bottom: 30px;
+}
+.content01-sentence01{
+    color: #464b51;
+}
+.content01-sentence02{
+    color: #464b51;
+    margin-bottom: 30px;
+}
+.content01-sentence03{
+    color: #ff96b9;
+    font-size: 12px;
+    
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+.content02{
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.content02-title{
+    color: #ff96b9;
+    font-size: 30px;
+    border: 3px solid #ff96b9;
+    border-radius: 2px;
+    background-color: white;
+}
+.content02-content01{
+    display: inline-block;
+}
+.content02-content01-title{
+    color: #464b51;
+    font-size: 24px;
+    border-bottom: 4px dotted black;
+}
+}
+/* pc用＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+@media screen and (min-width: 768px){
+.display_none{
+    display: none;
+}
+.content01{
+    background-color: #ff96b9;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.content01-sentence{
+    background-color: white;
+    border-radius: 3px;
+    padding: 40px;
+}
+.img01{
+    width: 200px;
+    margin: 10px;
+}
+.img02, .img03, .img04{
+    width: 290px;
+    margin: 20px;
+}
+
+.content01-title{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 35px;
+    border-bottom: 2px dotted white;
+    margin-bottom: 30px;
+}
+.content01-sentence01{
+    color: #464b51;
+}
+.content01-sentence02{
+    color: #464b51;
+    margin-bottom: 30px;
+}
+.content01-sentence03{
+    color: #ff96b9;
+    font-size: 12px;
+    
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+.content02{
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.content02-title{
+    color: #ff96b9;
+    font-size: 35px;
+    border: 3px solid #ff96b9;
+    border-radius: 2px;
+    background-color: white;
+}
+.content02-content01{
+    display: inline-block;
+}
+.content02-content01-title{
+    color: #464b51;
+    font-size: 24px;
+    border-bottom: 4px dotted black;
+}
+}
